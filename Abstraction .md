@@ -44,9 +44,7 @@ Create an object of class Cat.
 Call sleep() method — prints "I am going to sleep in a while".
 
 Call sound() method — prints "I can meow".
-
 Create an object of class Snake.
-
 Call sound() method — prints "I can hiss".
 
 End
@@ -58,6 +56,7 @@ End
 ---
 
 ## 💻 Program
+```
 from abc import ABC,abstractmethod
  
 class Animal(ABC):
@@ -88,6 +87,7 @@ c.sleep()
 c.sound()
 c=Snake()
 c.sound()
+```
 
 ## Output
 <img width="775" height="237" alt="image" src="https://github.com/user-attachments/assets/830d6530-47a2-437d-9adc-1f3450f5c6f6" />
